@@ -1,0 +1,73 @@
+.card-container {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  width: 100vw;
+  height: 100vh;
+  padding: 60px;
+ 
+  background-color: #8b99b6;
+ 
+}
+
+
+
+.cookie-card {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  width: 400px;
+  padding: 30px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.cookie-card:hover {
+  transform: translateY(-5px);
+}
+
+.cookie-card .card-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.cookie-card .card-actions {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.cookie-card .btn-primary {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cookie-card .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.cookie-card .btn-ghost {
+  background-color: #007bff;
+  color:#ffffff;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cookie-card .btn-ghost:hover {
+  background-color: #0056b3;
+}
